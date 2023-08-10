@@ -1,0 +1,25 @@
+{
+  "name": "binary_tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotNATE/typescript_binary_tree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotNATE/typescript_binary_tree/issues"
+  },
+  "homepage": "https://github.com/dotNATE/typescript_binary_tree#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
